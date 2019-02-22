@@ -1,0 +1,156 @@
+/*清除浏览器默认样式*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav {
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+    position: fixed;
+}
+
+.nav-content {
+    width: 1140px;
+    height: 79px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+}
+
+.nav-list {
+    width: 602px;
+    height: 79px;
+    float: right;
+}
+
+.nav-list-item {
+    width: 602px;
+    height: 79px;
+    float: right;
+}
+
+.nav-item {
+    font-size: 16px;
+    height: 79px;
+    line-height: 58px;
+    cursor: pointer; /*将鼠标移入的样式变成手*/
+    float: left;
+    padding: 10px 20px 10px 0;
+    color: white;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item-first {
+    color: #16b0dc;
+}
+
+.banner {
+    width: 100%;
+    height: 496px;
+    /*background: #cccccc;*/
+}
+
+.about {
+    width: 1903px;
+    height: 765px;
+    margin: 0 auto;
+}
+
+.editor {
+    width: 1220px;
+    height: 260px;
+    margin: 80px auto 0;
+}
+
+.editor p:first-child {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #222;
+    margin-top: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.editor p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    color: #222;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.lg-box {
+    width: 1250px;
+    height: 340px;
+    /*margin-left: 400px;*/
+    margin: auto;
+    display: flex;
+}
+
+.lg-box img {
+    width: 530px;
+    height: 340px;
+    margin: auto;
+}
+
+.footer {
+    height: 182px;
+    background: #f5f5f5;
+}
+.linksnav {
+    width: 100%;
+    height: 20px;
+}
+
+.social {
+    height: 56px;
+    margin-top:30px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.social i:first-child {
+    color: #83c44e;
+}
+
+.social .iconfont {
+    font-size: 26px;
+    cursor: pointer;
+    color: #62a8ea;
+    margin-left: 10px;
+}
+
+.social p {
+    color: #aaaaaa;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.social a {
+    color: #62a8ea;
+    cursor: pointer;
+}
+
+.social img {
+    margin-top: 20px;
+}
